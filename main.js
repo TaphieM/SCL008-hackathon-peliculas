@@ -1,4 +1,4 @@
-let searchBtn = document.getElementById('search');
+/*let searchBtn = document.getElementById('search');
 let logoInit = document.getElementById('logo-movie');
 let firstScreen =  '\
                       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">\
@@ -100,4 +100,4 @@ searchBtn.addEventListener('click', () => {
 logoInit.addEventListener('click', () => {
   document.getElementById('init').innerHTML = '';
   document.getElementById('init').innerHTML = firstScreen;
-});
+});*/
