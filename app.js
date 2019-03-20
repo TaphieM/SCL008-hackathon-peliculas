@@ -6,16 +6,20 @@ const thrillerMovies=[]
 const romanceMovies=[]
 const comedyMovies=[]
 const sciFiMovies=[]
+var movie=[];
 
 
-
-
+//Macro para generar las 10 posiciones de la pantalla por filtro de genero
 for(let i=0; i<actionMovies.lenght;i++){
+    //p -> es la posición dentro de los ID del genero seleccionado 
     let p=actionMovies[i]
-
-    const movie[i]=fetch('http://www.omdbapi.com/?i='+ p + '&apikey=fe2ab715')
+    //En cada movie[i] vamos a guardar el resultado de la API filtrando el ID
+       //Pendiente ir a buscar sólo los valores necesarios (Imagen,nombre, año, director, etc...)
+    movie[i]=fetch('http://www.omdbapi.com/?i='+ p + '&apikey=fe2ab715')
     .then (data => data.json())
     .then (data => {
+        //Por fines de prueba la acción resultante es imprimir los valores en consola
+        //Esto deberá cambiarse por imprimir la imagen o información de cada pelicula
         console.log(data)
     })  
  
@@ -23,7 +27,6 @@ for(let i=0; i<actionMovies.lenght;i++){
 
 
 
-var randomNumber=
 
 const enterData= () =>{
     
