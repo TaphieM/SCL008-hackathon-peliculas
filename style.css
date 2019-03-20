@@ -1,28 +1,35 @@
 body{
-	background-color: skyblue;
+	background-color: rgb(241, 238, 149)!important;
 }
 header{
-  background-color: #93DEDB;
+  background-color: #93DEDB!important;
   color: white;
   padding:1%;
 }
 
-nav{
+.navbar, .navbar-expand-lg, .navbar-light, .bg-light{
   width: 100%;
   display: inherit;
-}
+  background-color:  #7edbc5!important;
+  }
+
+.nav-link, .dropdown-toggle, .dropdown-menu, .dropdown-item{
+  background-color: #7edbc5!important;
+  border-color: #000000!important;
+} 
+
 
 .btn-color{
 
-  background-color: #93DEDB !important;
-  border: none !important;
-  border-radius: 20px !important;
+  background-color: #93DEDB!important;
+  border: none!important;
+  border-radius: 20px!important;
 
 }
 
 button:hover{
   border:none!important;
-  background-color: #F1EA57!important;
+  background-color: #EFEDB8!important;
 
 }
 
@@ -30,9 +37,18 @@ button:hover{
 	margin-top: 20px;
 }
 
-.modal-content{
-  border-radius: 20px;
-  background-color: #93DEDB;
-  opacity: 0.85;
-  filter: alpha(opacity=80);
+.modal-content, .modal-header, .modal-title, {
+  border-radius: 50px;
+  background-color: #EFEDB8!important;
+
+
+}
+
+.menuTitle{
+  margin-left: 1rem;
+  font-weight: 500;
+}
+
+.icon-site{
+  size: 20px
 }
