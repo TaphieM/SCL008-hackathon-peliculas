@@ -1,16 +1,66 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
+    <title>90's Film</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>90´s Movies</title>
-    <link rel="stylesheet" href='style.css'>
- 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+   
 </head>
 <body>
-    <script src='app.js'></script>
-    <script  src='main.js'></script>
-    <script src='data.json'></script>
+    <header>
+        <div class="row">
+            <div class="col md-4 logo col-logo" id="logo-movie">
+                <img src="https://fontmeme.com/permalink/190319/514f8b29cff7251315073854241142b1.png" alt="fuente-de-guardianes-de-la-galaxia" border="0" sizes="32x32">
+            </div>
+            <div class="col md-8">
+                <ul class="nav justify-content-left navi nav">
+                    <li class="nav-item">
+                        <button class="btn btn-primary btn-lg font-nav margin btn-color font-navi-resp active" id="search">Busca tu película</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-primary btn-lg font-nav btn-color font-navi-resp active" data-toggle="modal" data-target="#exampleModalCenter">Sobre Nosotros</button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">Sobre Nosotros</h5>
+                                    <button class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, quia, nobis. Saepe reiciendis veritatis similique dicta recusandae, amet facilis accusantium harum beatae nulla molestiae, itaque eum accusamus, corporis nobis nam.
+                                    </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque est incidunt error impedit beatae, tempora deserunt praesentium, similique nemo perferendis nostrum dolores sapiente cupiditate optio quos quisquam molestiae nesciunt quod. orem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, quia, nobis. Saepe reiciendis veritatis similique dicta recusandae, amet facilis accusantium harum beatae nulla molestiae, itaque eum accusamus, corporis nobis nam.
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </li>
+                    <li class="nav-item">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section id="init">
+    </section>
+
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="data.jason"></script>
+    <script src="app.js"></script>
+    <script src="main.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
 </body>
+
 </html>
