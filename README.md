@@ -2,6 +2,9 @@
 
 ![logo 90film](logo.png)
 
+## Preámbulo 
+
+
  ## ¿De que se trata? 💭
  
  "90film" es un sitio dedicado a entregar información específica sobre películas destacadas de los años 90. Contiene un amplio catálogo de peliculas donde puedes seleccionar a través de géneros y encontrar datos como críticas de expertos y trailers oficiales. 
@@ -14,17 +17,23 @@
 
  [PARA VER LOS RESULTADOS DE LA ENCUESTA, CLICKEA AQUI 👈](https://docs.google.com/forms/d/1xEUhr4W3P1mvUfnlw7Mr4-GCzMRRK4rg_78_wBpcty0/edit#responses)
 
++ La mayoría de los encuestados son mujeres de entre 20 a 35 años.
++ La mayoría ve o intenta ver una película más de una vez al mes.
++ La mayoría se inclina hacía los géneros de acción, terror y comedia.
++ Para ver una película la mayoría se fija en el director y la crítica 
++ la información que más buscan al momento de investigar sobre una pelicula es a través de sinopsis escritas y criticas de sitios web
++ Dentro de las películas favoritas de los encuestados se encuentran en mayoría Titanic, Trainspotting y El joven manos de tijera. 
 
+ ## Comenzando a crear nuestro sitio web 👌
  
+### Diagrama de flujo 
+Después de obtener las respuestas se comenzo a trabajar en el diágrama de flujo 
 
- ## Resumen del proyecto
+### Prototipo de baja fidelidad
 
- Durante estos días crearás el producto que tú quieras alrededor del mundo
-de las películas. Puede ser un sitio que hable de las mejores películas
-latinoamericanas, uno que recomiende las películas recién estrenadas en Netflix,
-uno de pelis de terror... o... ¡lo que quieras!
+### Prototipo de alta fidelidad 
 
- ## Consideraciones generales
+ ## 📑 📊 Testeo y resultados 
 
  * Este proyecto se debe resolver en equipos de hasta 4 personas.
 * Usa la API de [OMDB](http://www.omdbapi.com/) (The Open Movie Database).
