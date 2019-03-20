@@ -1,26 +1,21 @@
-# "Hackathon" de final de _Common Core_, películas
+# 🎥 Proyecto sobre sitio web con información sobre películas noventeras 🎬
 
- ## Índice
+![logo 90film](logo.png)
 
- * [Preámbulo](#preámbulo)
-* [Resumen del proyecto](#resumen-del-proyecto)
-* [Consideraciones generales](#consideraciones-generales)
-* [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
-* [Parte obligatoria](#parte-obligatoria)
-* [Consideraciones técnicas](#consideraciones-técnicas)
+ ## ¿De que se trata? 💭
+ 
+ "90film" es un sitio dedicado a entregar información específica sobre películas destacadas de los años 90. Contiene un amplio catálogo de peliculas donde puedes seleccionar a través de géneros y encontrar datos como críticas de expertos y trailers oficiales. 
 
  ***
 
- ## Preámbulo
+ ## Estudio de usuario previo 👩👨
 
- Con la aparición de plataformas para ver películas en la nube, como Netflix o
-Hulu, ver películas desde donde estés, comiendo lo que quieras
-(sin tener que pagar precios ridículos por pop-corn / pipoca / palomitas /
-canchita / cabritas), parando si es necesario, teniendo acceso a una cantidad
-abrumadora de películas... ha cambiado la experiencia del usuario
-y modificado el mercado de las películas a nivel global.
+ Para comenzar a crear nuestro sitio web se necesitó investigar y conocer sobre las preferencias de los usuarios más adeptos al cine. Para eso se generó una encuesta donde contestaron aproximadamente 40 personas y hemos podido extraer los siguientes datos:
 
- ![Pelis](https://media.giphy.com/media/NipFetnQOuKhW/giphy.gif)
+ [PARA VER LOS RESULTADOS DE LA ENCUESTA, CLICKEA AQUI 👈](https://docs.google.com/forms/d/1xEUhr4W3P1mvUfnlw7Mr4-GCzMRRK4rg_78_wBpcty0/edit#responses)
+
+
+ 
 
  ## Resumen del proyecto
 
