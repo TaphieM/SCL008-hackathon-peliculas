@@ -1,0 +1,38 @@
+body{
+	background-color: skyblue;
+}
+header{
+  background-color: #93DEDB;
+  color: white;
+  padding:1%;
+}
+
+nav{
+  width: 100%;
+  display: inherit;
+}
+
+.btn-color{
+
+  background-color: #93DEDB !important;
+  border: none !important;
+  border-radius: 20px !important;
+
+}
+
+button:hover{
+  border:none!important;
+  background-color: #F1EA57!important;
+
+}
+
+#carouselExampleIndicators{
+	margin-top: 20px;
+}
+
+.modal-content{
+  border-radius: 20px;
+  background-color: #93DEDB;
+  opacity: 0.85;
+  filter: alpha(opacity=80);
+}
