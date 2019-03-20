@@ -110,4 +110,3 @@ logoInit.addEventListener('click', () => {
   document.getElementById('init').innerHTML = firstScreen;
 
 });*/
-
