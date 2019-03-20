@@ -1,9 +1,12 @@
+
+/*let searchBtn = document.getElementById('search');
+
 let selectedGenre= document.getElementById("selectGenre")
 
 /*Guardo en una variable el valor del indice seleccionado por el usuario*/
 let actualGenre=selectedGenre.options[selectedGenre.selectedIndex].value;
 
-let searchBtn = document.getElementById('search');
+
 let logoInit = document.getElementById('logo-movie');
 let firstScreen =  '\
                       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">\
@@ -105,5 +108,6 @@ searchBtn.addEventListener('click', () => {
 logoInit.addEventListener('click', () => {
   document.getElementById('init').innerHTML = '';
   document.getElementById('init').innerHTML = firstScreen;
-});
+
+});*/
 
