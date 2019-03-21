@@ -1,14 +1,18 @@
 body{
-  background-color: #F7F8E0!important;
+  background-color: #F2EB9C!important;
 }
 header{
   height: 20%;
   width: 100%;
   margin: 0;
 }
+
 #hamburger{
+  background-image: url(http://img.fenixzone.net/i/iLqVs2Y.png);
   background-color: #7edbc5;
+  background-size: 90rem;
   width: 100%;
+  padding: 0rem;
 }
 .nav-link, .dropdown-toggle, .dropdown-menu, .dropdown-item{
   background-color: #7edbc5!important;
@@ -22,6 +26,20 @@ img{
   background-color: #93DEDB!important;
 }
 
+.btn-color, .btn-primary{
+
+  background-color: #93DEDB!important;
+  border: none!important;
+  border-radius: 20px!important;
+
+}
+
+button:hover{
+  border:none!important;
+  background-color:black!important;
+
+}
+
 .btn-color{
 
   background-color: #93DEDB!important;
@@ -32,21 +50,7 @@ img{
 
 button:hover{
   border:none!important;
-  background-color: #EFEDB8!important;
-
-}
-
-.btn-color{
-
-  background-color: #93DEDB!important;
-  border: none!important;
-  border-radius: 20px!important;
-
-}
-
-button:hover{
-  border:none!important;
-  background-color: #EFEDB8!important;
+  background-color: #F2EB9C!important;
 
 }
 
@@ -60,10 +64,7 @@ button:hover{
 }
 
 .modal-content, .modal-header, .modal-title{
-  border-radius: 50px;
-  background-color: #EFEDB8!important;
-
-
+  background-color: #F2EB9C!important;
 }
 
 .menuTitle{
