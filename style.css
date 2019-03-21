@@ -1,23 +1,40 @@
 body{
-	background-color: rgb(241, 238, 149)!important;
+  background-color: #F7F8E0!important;
 }
 header{
-  background-color: #93DEDB!important;
-  color: white;
-  padding:1%;
-}
-
-.navbar, .navbar-expand-lg, .navbar-light, .bg-light{
+  height: 20%;
   width: 100%;
-  display: inherit;
-  background-color:  #7edbc5!important;
-  }
-
+  margin: 0;
+}
+#hamburger{
+  background-color: #7edbc5;
+  width: 100%;
+}
 .nav-link, .dropdown-toggle, .dropdown-menu, .dropdown-item{
   background-color: #7edbc5!important;
   border-color: #000000!important;
 } 
 
+img{
+  height: 120px;
+  margin-right: 700px;
+  margin-left: 25px;
+  background-color: #93DEDB!important;
+}
+
+.btn-color{
+
+  background-color: #93DEDB!important;
+  border: none!important;
+  border-radius: 20px!important;
+
+}
+
+button:hover{
+  border:none!important;
+  background-color: #EFEDB8!important;
+
+}
 
 .btn-color{
 
