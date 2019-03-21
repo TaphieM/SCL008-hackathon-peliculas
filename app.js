@@ -23,8 +23,6 @@ const actionData= () =>{
     }
 } 
 
-actionData();
-
 //Función que sirve para imprimir data
 const printMoviesAction = (movies) => {
     actionSection.innerHTML = " ";
