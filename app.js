@@ -12,6 +12,7 @@ const actionData= () =>{
     .then (data => {
     
        document.getElementById('action').innerHTML += 
+
        `<div class="col-md-2">\
        <div class="card" style="width: 18rem;">\
        <img src="${data.Poster}" class="card-img-top" alt="...">\
@@ -19,6 +20,14 @@ const actionData= () =>{
          <h5 class="card-title">${data.Title}</h5>\
         <span class="card-text">Calificación: ${data.imdbRating}</span>\
        </div>\
+
+       `<div class="card" style="width: 18rem;">
+       <img src="${data.Poster}" class="card-img-top" alt="...">
+       <div class="card-body">
+         <h5 class="card-title">${data.Title}</h5>
+        <span class="card-text">Calificación: ${data.imdbRating}</span>
+         
+       </div>
      </div>`
     })
     }
