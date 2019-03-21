@@ -186,4 +186,3 @@ firstMovies.addEventListener('click', () => {
     // document.getElementById('init').style = none;
     // document.getElementById('action').style = block;
   });
-  
