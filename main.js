@@ -129,6 +129,7 @@ logoInit.addEventListener('click', () => {
 /*interacción para mostrar peliculas de accion*/
 actionMovie.addEventListener('click', () => {
   actionData();
+  document.getElementById('init').innerHTML = '';
   document.getElementById('init').innerHTML = actionMovie;
   
     });
