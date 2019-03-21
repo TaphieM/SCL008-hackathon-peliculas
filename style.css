@@ -37,7 +37,12 @@ button:hover{
 	margin-top: 20px;
 }
 
-.modal-content, .modal-header, .modal-title, {
+.carousel-inner img {
+  width: 100%;
+  max-height: 460px;
+}
+
+.modal-content, .modal-header, .modal-title{
   border-radius: 50px;
   background-color: #EFEDB8!important;
 
@@ -49,6 +54,3 @@ button:hover{
   font-weight: 500;
 }
 
-.icon-site{
-  size: 20px
-}
