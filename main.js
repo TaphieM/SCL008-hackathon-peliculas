@@ -1,8 +1,5 @@
-/*Guardo en una variable el valor del indice seleccionado por el usuario
-let actualGenre=selectedGenre.options[selectedGenre.selectedIndex].value;*/
-let logoInit = document.getElementById('logo-movie');
 
-let actionMovie = document.getElementById('actionScreen');
+/*código de primera pantalla donde se muestra el carrusel*/
 let firstScreen =  '\
                       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">\
                         <ol class="carousel-indicators">\
@@ -117,6 +114,19 @@ let firstScreen =  '\
 
 window.onload = document.getElementById('init').innerHTML = firstScreen;
 
+/*declaramos var donde se llama a las opciones del*/
+let logoInit = document.getElementById('logo-movie');
+let actionMovie = document.getElementById('actionScreen');
+let dramaMovie=document.getElementById('dramaScreen');
+let comedyMovie=document.getElementById('comedyScreen');
+
+/*dando click en el logo regrese a la página inicial*/
+logoInit.addEventListener('click', () => {
+    document.getElementById('init').innerHTML = '';
+    document.getElementById('init').innerHTML = firstScreen;
+  });
+
+/*interacción para mostrar peliculas de accion*/
 actionMovie.addEventListener('click', () => {
   actionData();
   document.getElementById('init').innerHTML = '';
@@ -124,9 +134,21 @@ actionMovie.addEventListener('click', () => {
   
     });
 
+/*interacción para mostrar peliculas de drama*/
+dramaMovie.addEventListener('click', () => {
+    dramaData();
+    document.getElementById('init').innerHTML = '';
+    document.getElementById('init').innerHTML = dramaMovie;
+    
+      }); 
+ 
+ /*interacción para mostrar peliculas de drama*/
+comedyMovie.addEventListener('click', () => {
+    comedyData();
+    document.getElementById('init').innerHTML = '';
+    document.getElementById('init').innerHTML = comedyMovie;
+    
+      });     
 
-logoInit.addEventListener('click', () => {
-  document.getElementById('init').innerHTML = '';
-  document.getElementById('init').innerHTML = firstScreen;
-});
+
 
