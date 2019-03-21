@@ -3,8 +3,8 @@ let searchBtn = document.getElementById('search');
 
 let selectedGenre= document.getElementById("selectGenre")
 
-/*Guardo en una variable el valor del indice seleccionado por el usuario*/
-let actualGenre=selectedGenre.options[selectedGenre.selectedIndex].value;
+/*Guardo en una variable el valor del indice seleccionado por el usuario
+let actualGenre=selectedGenre.options[selectedGenre.selectedIndex].value;*/
 let secondScreen = '\
                     <form>\
                       <div class="form-row margin-select">\
