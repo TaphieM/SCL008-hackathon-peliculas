@@ -119,7 +119,6 @@ window.onload = document.getElementById('init').innerHTML = firstScreen;
 
 actionMovie.addEventListener('click', () => {
   actionData();
-  document.getElementById('init').innerHTML = '';
   document.getElementById('init').innerHTML = actionMovie;
   
     });

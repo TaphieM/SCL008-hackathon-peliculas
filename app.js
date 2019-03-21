@@ -11,44 +11,28 @@ const actionData= () =>{
     .then (data => {
     
        document.getElementById('init').innerHTML += 
-
-       `<div class="col-md-2">\
-       <div class="card"">\
-       <img src="${data.Poster}" class="card-img-top" alt="...">\
-       <div class="card-body">\
-         <h5 class="card-title">${data.Title}</h5>\
-        <span class="card-text">Calificación: ${data.imdbRating}</span>\
-       </div>\
-
-  
-       </div>\
+      `<div class="row">
+      <div class="col-md-3">
+       <div class="card">
+       <div class="card-body">
+       <img src="${data.Poster}" class="card-img-top" alt="...">
+         <h5 class="card-title">${data.Title}</h5>
+        <span class="card-text">Calificación: ${data.imdbRating}</span>
+       </div>
+      </div>
      </div>`
+
+
+
+
+
+
+
     })
     }
 } 
 
-//Función que sirve para imprimir data
 
-
-
-       /*movieCathalog.forEach(function(element){
-            text += `<div class="action">
-            <div class="col s12 m6">
-             <div class="card">
-               <div class="card-image">
-                 <img src="${element.Poster}">
-                 
-                 <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
-               </div>
-             </div>
-           </div>
-           </div>`
-       });
-       action.innerHTML= text;
-    })
-    .catch(err => console.log(err));
-}
-};*/
 
 
 
