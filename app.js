@@ -10,11 +10,12 @@ const enterData= () =>{
     fetch('http://www.omdbapi.com/?i=' + actionMovies[i] + '&apikey=fe2ab715')
     .then (data => data.json())
     .then (data => {
-       movieCathalog.push(data);
-       
+    
+       document.getElementById('action').innerHTML += `<img src="${data.Poster}" class="rounded mx-auto d-block" alt="..."></img>`
     })
     }
-}
+} 
+enterData();
 
 
        /*movieCathalog.forEach(function(element){

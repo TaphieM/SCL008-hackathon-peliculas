@@ -65,3 +65,18 @@ logoInit.addEventListener('click', () => {
 
 });
 
+const showFirstScreen=()=>{
+
+    init.style.display = "block"; 
+    actionScreen.style.display ="none";
+
+}
+
+actionScreen.addEventListener('click', () => {
+    document.getElementById('carouselExampleIndicators').style.display = 'none';
+    document.getElementById('actionScreen').style.display = 'block';
+  
+  
+  });
+  
+  showFirstScreen();
