@@ -67,6 +67,10 @@ button:hover{
   background-color: #F2EB9C!important;
 }
 
+.modal-body img{
+  height: 100%;
+}
+
 .menuTitle{
   margin-left: 1rem;
   font-weight: 500;

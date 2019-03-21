@@ -20,6 +20,7 @@ const actionData= () =>{
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
   Ver más información
 </button>
+ 
 <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -31,10 +32,11 @@ const actionData= () =>{
       </div>
       <div class="modal-body">
         <img src="${data.Poster}" class="card-img-top" alt="..." style="width:150px;"">
-         <p class="card-text">Plot: ${data.Plot}</p>
+         <p class="card-text"> Plot: ${data.Plot}</p>
+         <p class="card-text"> Director: ${data.Director}</p>
+         <p class="card-text"> Year: ${data.Year}</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         <button type="button" class="btn btn-primary">Ver Trailer</button>
       </div>
     </div>
