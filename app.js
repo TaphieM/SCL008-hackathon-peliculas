@@ -3,48 +3,32 @@ const dramaMovies=['tt0102926','tt0110912','tt0118799','tt0108052','tt0117951','
 const comedyMovies=['tt0109040','tt0163651','tt0118655','tt0099785','tt0188052','tt0107048','tt0109707','tt0118715','tt0129387','tt0128445']
 const movies=[];
 
-const actionSection = document.getElementById('action');
-const sectionTop = document.getElementById('section-top');
+const actionSection = document.getElementById('init');
 const actionData= () =>{
     for(let i=0; i<actionMovies.length;i++){
     fetch('http://www.omdbapi.com/?i=' + actionMovies[i] + '&apikey=fe2ab715')
     .then (data => data.json())
     .then (data => {
     
-       document.getElementById('action').innerHTML += 
+       document.getElementById('init').innerHTML += 
 
        `<div class="col-md-2">\
-       <div class="card" style="width: 18rem;">\
+       <div class="card"">\
        <img src="${data.Poster}" class="card-img-top" alt="...">\
        <div class="card-body">\
          <h5 class="card-title">${data.Title}</h5>\
         <span class="card-text">Calificación: ${data.imdbRating}</span>\
        </div>\
 
-       `<div class="card" style="width: 18rem;">
-       <img src="${data.Poster}" class="card-img-top" alt="...">
-       <div class="card-body">
-         <h5 class="card-title">${data.Title}</h5>
-        <span class="card-text">Calificación: ${data.imdbRating}</span>
-         
-       </div>
+  
+       </div>\
      </div>`
     })
     }
 } 
 
 //Función que sirve para imprimir data
-const printMoviesAction = (movies) => {
-    actionSection.innerHTML = " ";
-  
-    movies.map((movies) => {
-      let nameMovies =
-        `<div class="data"><img id="${movies.Title}" src="${movies.Poster}"><h5>Title: ${movies.Title}</h5><p>Year: ${movies.Year}</p>
-      </div>`;
-      sectionTop.insertAdjacentHTML("beforeend", nameMovies);
-  
-    })
-  };
+
 
 
        /*movieCathalog.forEach(function(element){
