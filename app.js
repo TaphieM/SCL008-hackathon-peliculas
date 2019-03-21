@@ -11,7 +11,6 @@ const actionData= () =>{
     .then (data => {
     
        document.getElementById('init').innerHTML += 
-
        `<div class="col-md-4">\
        <div class="card" style="width: 18rem;">\
        <img src="${data.Poster}" class="card-img-top" alt="...">\
@@ -75,6 +74,7 @@ const dramaData= () =>{
 } 
 
 
+
 const comedyData= () =>{
     for(let i=0; i<comedyMovies.length;i++){
     fetch('http://www.omdbapi.com/?i=' + comedyMovies[i] + '&apikey=fe2ab715')
@@ -100,24 +100,11 @@ const comedyData= () =>{
 } 
 
 
-       /*movieCathalog.forEach(function(element){
-            text += `<div class="action">
-            <div class="col s12 m6">
-             <div class="card">
-               <div class="card-image">
-                 <img src="${element.Poster}">
-                 
-                 <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
-               </div>
-             </div>
-           </div>
-           </div>`
-       });
-       action.innerHTML= text;
     })
-    .catch(err => console.log(err));
-}
-};*/
+    }
+} 
+
+
 
 
 
