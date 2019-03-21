@@ -62,5 +62,6 @@ logoInit.addEventListener('click', () => {
   document.getElementById('init').innerHTML = '';
   document.getElementById('init').innerHTML = firstScreen;
 
+
 });
 
