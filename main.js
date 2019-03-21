@@ -115,12 +115,6 @@ let firstScreen =  '\
             </a>\
             </div>';
 
-let actionScreen = '\
-                     <div class="col-md-12">\
-                        <div class="card-group" id="id1">\
-                         </div>\
-                      </div>';
-
 window.onload = document.getElementById('init').innerHTML = firstScreen;
 
 actionMovie.addEventListener('click', () => {
