@@ -13,7 +13,7 @@ const actionData= () =>{
        document.getElementById('init').innerHTML += 
 
        `<div class="col-md-2">\
-       <div class="card" style="width: 18rem;">\
+       <div class="card"">\
        <img src="${data.Poster}" class="card-img-top" alt="...">\
        <div class="card-body">\
          <h5 class="card-title">${data.Title}</h5>\
