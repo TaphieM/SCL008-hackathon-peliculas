@@ -1,54 +1,10 @@
 
-/*let searchBtn = document.getElementById('search');
+let searchBtn = document.getElementById('search');
 
 let selectedGenre= document.getElementById("selectGenre")
 
 /*Guardo en una variable el valor del indice seleccionado por el usuario*/
 let actualGenre=selectedGenre.options[selectedGenre.selectedIndex].value;
-
-
-let logoInit = document.getElementById('logo-movie');
-let firstScreen =  '\
-                      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">\
-                        <ol class="carousel-indicators">\
-                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>\
-                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>\
-                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>\
-                          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>\
-                          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>\
-                          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>\
-                        </ol>\
-                        <div class="carousel-inner">\
-                          <div class="carousel-item active ">\
-                            <img class="d-block mx-auto" style="width: 1000px; height:500px;" src="http://img.fenixzone.net/i/smSwLM4.png" alt="First slide">\
-                          </div>\
-                          <div class="carousel-item">\
-                            <img class="d-block mx-auto" style="width: 1000px; height:500px;" src="http://img.fenixzone.net/i/AOwdNLD.jpeg" alt="Second slide">\
-                          </div>\
-                          <div class="carousel-item">\
-                            <img class="d-block mx-auto" style="width: 1000px; height:500px;" src="http://img.fenixzone.net/i/UneKRCQ.jpeg" alt="Third slide">\
-                          </div>\
-                          <div class="carousel-item">\
-                            <img class="d-block mx-auto" style="width: 1000px; height:500px;" src="http://img.fenixzone.net/i/5IlUCpT.jpeg" alt="Fourth slide">\
-                          </div>\
-                          <div class="carousel-item">\
-                            <img class="d-block mx-auto" style="width: 1000px; height:500px;" src="http://img.fenixzone.net/i/IjwOYmg.jpeg" alt="FIfth slide">\
-                          </div>\
-                          <div class="carousel-item">\
-                            <img class="d-block mx-auto" style="width: 1000px; height:500px;" src="http://img.fenixzone.net/i/TdJPj6A.jpeg" alt="Sixth slide">\
-                          </div>\
-                        </div>\
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">\
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>\
-                          <span class="sr-only">Previous</span>\
-                        </a>\
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">\
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>\
-                            <span class="sr-only">Next</span>\
-                        </a>\
-                        </div>\
-                        <div class= "banner-movil" id="movil">\
-                        </div>';
 let secondScreen = '\
                     <form>\
                       <div class="form-row margin-select">\
@@ -88,9 +44,6 @@ let secondScreen = '\
                       </div>\
                     </div>';
 
-
-window.onload = document.getElementById('init').innerHTML = firstScreen;
-
 searchBtn.addEventListener('click', () => {
   document.getElementById('init').innerHTML = "";
   document.getElementById('init').innerHTML = secondScreen;
@@ -109,5 +62,5 @@ logoInit.addEventListener('click', () => {
   document.getElementById('init').innerHTML = '';
   document.getElementById('init').innerHTML = firstScreen;
 
-});*/
+});
 
