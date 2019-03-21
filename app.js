@@ -21,30 +21,12 @@ const actionData= () =>{
         <span class="card-text">Calificación: ${data.imdbRating}</span>\
        </div>\
 
-       `<div class="card" style="width: 18rem;">
-       <img src="${data.Poster}" class="card-img-top" alt="...">
-       <div class="card-body">
-         <h5 class="card-title">${data.Title}</h5>
-        <span class="card-text">Calificación: ${data.imdbRating}</span>
-         
+    
        </div>
      </div>`
     })
     }
 } 
-
-//Función que sirve para imprimir data
-const printMoviesAction = (movies) => {
-    actionSection.innerHTML = " ";
-  
-    movies.map((movies) => {
-      let nameMovies =
-        `<div class="data"><img id="${movies.Title}" src="${movies.Poster}"><h5>Title: ${movies.Title}</h5><p>Year: ${movies.Year}</p>
-      </div>`;
-      sectionTop.insertAdjacentHTML("beforeend", nameMovies);
-  
-    })
-  };
 
 
        /*movieCathalog.forEach(function(element){
@@ -68,11 +50,5 @@ const printMoviesAction = (movies) => {
 
 
 
-
-fetch('http://www.omdbapi.com/?s="movie"&apikey=fe2ab715')
-.then(res=>res.json())
-.then(data=> {
-console.log(data)
-})
 
 
