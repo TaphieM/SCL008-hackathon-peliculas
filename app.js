@@ -18,6 +18,7 @@ const actionData= () =>{
        <div class="card-body">
          <h5 class="card-title">${data.Title}</h5>
         <span class="card-text">Calificación: ${data.imdbRating}</span>
+         
        </div>
      </div>`
     })
