@@ -180,3 +180,10 @@ logoInit.addEventListener('click', () => {
   document.getElementById('init').innerHTML = firstScreen;
 });
 
+const firstMovies= document.getElementById('actionScreen')
+firstMovies.addEventListener('click', () => {
+    alert(probando);
+    // document.getElementById('init').style = none;
+    // document.getElementById('action').style = block;
+  });
+  

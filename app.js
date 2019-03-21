@@ -12,13 +12,18 @@ const actionData= () =>{
     .then (data => data.json())
     .then (data => {
     
-       /*document.getElementById('action').innerHTML += `<img src="${data.Poster}" class="rounded mx-auto d-block" alt="..."></img>`*/
-       movies.push(data);
-
-    
+       document.getElementById('action').innerHTML += 
+       `<div class="card" style="width: 18rem;">
+       <img src="${data.Poster}" class="card-img-top" alt="...">
+       <div class="card-body">
+         <h5 class="card-title">${data.Title}</h5>
+        <span class="card-text">Calificación: ${data.imdbRating}</span>
+       </div>
+     </div>`
     })
     }
 } 
+
 actionData();
 
 //Función que sirve para imprimir data
