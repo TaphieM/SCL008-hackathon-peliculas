@@ -67,8 +67,22 @@ button:hover{
   background-color: #F2EB9C!important;
 }
 
+.modal-body img{
+  height: 100%;
+}
+
 .menuTitle{
   margin-left: 1rem;
   font-weight: 500;
 }
 
+.card{
+  height: auto;
+  margin-top: 20px;
+  background-color: #F2EB9C;
+}
+
+.card-body{
+  height: auto;
+  background-color: #F2EB9C;
+}
