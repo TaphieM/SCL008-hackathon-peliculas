@@ -52,7 +52,6 @@ const actionData= () =>{
 
 
 
-
 const dramaData= () =>{
     for(let i=0; i<dramaMovies.length;i++){
     fetch('https://www.omdbapi.com/?i=' + dramaMovies[i] + '&apikey=fe2ab715')
