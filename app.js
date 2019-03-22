@@ -13,10 +13,59 @@ const actionData= () =>{
        document.getElementById('init').innerHTML += 
        `<div class="col-md-4">
        <div class="card" style="width: 18rem;">
+  <img src="${data.Poster}" id="cardposter" class="card-img-top" alt="..." style="width:150px;"">
+  <div class="card-body">
+    <h5 class="card-title">${data.Title}</h5>
+    <p class="card-text">Calificación: ${data.imdbRating}</p>
+    <p class="card-text">Genre: ${data.Genre}</p>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong_${i}">
+  Ver más información
+</button>
+ 
+<div class="modal fade" id="exampleModalLong_${i}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">${data.Title}</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="${data.Poster}" class="card-img-top" alt="..." style="width:150px;">
+         <p class="card-text"> Plot: ${data.Plot}</p>
+         <p class="card-text"> Año: ${data.Year}</p>
+         <p class="card-text"> Director: ${data.Director}</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Ver Trailer</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>`
+    })
+    }
+} 
+
+
+
+const dramaData= () =>{
+    for(let i=0; i<dramaMovies.length;i++){
+    fetch('https://www.omdbapi.com/?i=' + dramaMovies[i] + '&apikey=fe2ab715')
+    .then (data => data.json())
+    .then (data => {
+    
+       document.getElementById('init').innerHTML += 
+
+       `<div class="col-md-4">
+       <div class="card" style="width: 18rem;">
   <img src="${data.Poster}" class="card-img-top" alt="..." style="width:150px;"">
   <div class="card-body">
     <h5 class="card-title">${data.Title}</h5>
     <p class="card-text">Calificación: ${data.imdbRating}</p>
+    <p class="card-text">Genre: ${data.Genre}</p>
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong_${i}">
   Ver más información
 </button>
@@ -52,32 +101,6 @@ const actionData= () =>{
 
 
 
-const dramaData= () =>{
-    for(let i=0; i<dramaMovies.length;i++){
-    fetch('https://www.omdbapi.com/?i=' + dramaMovies[i] + '&apikey=fe2ab715')
-    .then (data => data.json())
-    .then (data => {
-    
-       document.getElementById('init').innerHTML += 
-
-       `<div class="col-md-4">
-       <div class="card" style="width: 18rem;">
-  <img src="${data.Poster}" class="card-img-top" alt="..." style="width:150px;"">
-  <div class="card-body">
-    <h5 class="card-title">${data.Title}</h5>
-    <p class="card-text">Calificación: ${data.imdbRating}</p>
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-  Ver Trailer
-</button>
-</div>
-      </div>
-     </div>`
-    })
-    }
-} 
-
-
-
 const comedyData= () =>{
     for(let i=0; i<comedyMovies.length;i++){
     fetch('https://www.omdbapi.com/?i=' + comedyMovies[i] + '&apikey=fe2ab715')
@@ -92,16 +115,39 @@ const comedyData= () =>{
   <div class="card-body">
     <h5 class="card-title">${data.Title}</h5>
     <p class="card-text">Calificación: ${data.imdbRating}</p>
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-  Ver Trailer
+    <p class="card-text">Genre: ${data.Genre}</p>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong_${i}">
+  Ver más información
 </button>
+ 
+<div class="modal fade" id="exampleModalLong_${i}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">${data.Title}</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="${data.Poster}" class="card-img-top" alt="..." style="width:150px;"">
+         <p class="card-text"> Plot: ${data.Plot}</p>
+         <p class="card-text"> Año: ${data.Year}</p>
+         <p class="card-text"> Director: ${data.Director}</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Ver Trailer</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
 </div>
       </div>
      </div>`
     })
     }
 } 
-
  
 
 
