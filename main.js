@@ -151,4 +151,3 @@ comedyMovie.addEventListener('click', () => {
       });     
 
 
-
