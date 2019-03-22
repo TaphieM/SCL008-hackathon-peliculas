@@ -1,4 +1,5 @@
 let firstScreen =  '\
+                      <h4>Películas Destacadas</h4>\
                       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">\
                         <ol class="carousel-indicators">\
                           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>\

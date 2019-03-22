@@ -6,7 +6,10 @@ header{
   width: 100%;
   margin: 0;
 }
-
+h4{
+  margin-left: 200px;
+  padding-top: 20px;
+}
 #navhamb{
   background-color: #7edbc5!important;
   background-image: url(http://img.fenixzone.net/i/iLqVs2Y.png);
@@ -71,7 +74,6 @@ button:hover{
 }
 
 #carouselExampleIndicators{
-  margin-top: 20px;
   margin-left: 100px;
 }
 
