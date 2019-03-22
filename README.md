@@ -68,7 +68,7 @@ Del moodboard de usuario logramos extraer tres colores más populares en los que
 
 [PUEDES VER EL TABLERO DE NUESTRO TRABAJO AQUI 👈](https://www.figma.com/file/UXes85iEBFxO0ABGBr22r5e3/90FILM?node-id=0%3A1)
 
-[PUEDES TESTEAR NUESTRO PROYECTO AQUI 👈](https://www.figma.com/proto/UXes85iEBFxO0ABGBr22r5e3/90FILM?node-id=0%3A1&scaling=contain)
+[PUEDES TESTEAR NUESTRO PROYECTO AQUI 👈 (https://www.figma.com/proto/UXes85iEBFxO0ABGBr22r5e3/90FILM?node-id=0%3A1&scaling=contain)
 
 ### Organización del trabajo 
  Para organizarnos frente al desafío y lograr entregar un MVP satisfactorio decidimos trabajar enfocándonos en tareas individuales específicas mientras constantemente teníamos feedback entre nosotras y personas externas.
@@ -81,7 +81,7 @@ De todas formas, ambas estuvieron trabajando muy de cerca y en general tendían 
 
 **Macarena Terán** (aquí presente) fuí encargada de realizar todo el estudio de usuario y la parte más investigativa del proyecto, mientras cooperaba con mis compañeras en cuanto a desarrollo del CSS y Bootstrap.
 
-[PUEDES ACCEDER A NUESTRO SITIO AQUI 👈 ](https://taphiem.github.io/SCL008-hackathon-peliculas/index.html
+[PUEDES ACCEDER A NUESTRO SITIO AQUI 👈](https://taphiem.github.io/SCL008-hackathon-peliculas/index.html)
 
 ***
 
