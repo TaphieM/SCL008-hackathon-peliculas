@@ -1,5 +1,6 @@
 body{
-  background-color: #F2EB9C!important;
+  background-color:  #F2EB9C!important;
+  cursor: pointer;
 }
 header{
   height: 20%;
@@ -7,9 +8,9 @@ header{
   margin: 0;
 }
 
-#hamburger{
+#navhamb{
+  background-color: #7edbc5!important;
   background-image: url(http://img.fenixzone.net/i/iLqVs2Y.png);
-  background-color: #7edbc5;
   background-size: 90rem;
   width: 100%;
   padding: 0rem;
@@ -19,12 +20,18 @@ header{
   border-color: #000000!important;
 } 
 
+#logo-movie{
+  margin-left: 20px;
+}
+
 img{
   height: 120px;
   margin-right: 700px;
   margin-left: 25px;
   background-color: #93DEDB!important;
 }
+
+
 
 .btn-color, .btn-primary{
 
@@ -50,12 +57,13 @@ button:hover{
 
 button:hover{
   border:none!important;
-  background-color: #F2EB9C!important;
+  background-color: yellow!important;
 
 }
 
 #carouselExampleIndicators{
 	margin-top: 20px;
+  margin-left: 100px;
 }
 
 .carousel-inner img {
@@ -64,7 +72,7 @@ button:hover{
 }
 
 .modal-content, .modal-header, .modal-title{
-  background-color: #F2EB9C!important;
+  background-color: rgb(233, 233, 129);
 }
 
 .modal-body img{
@@ -86,3 +94,4 @@ button:hover{
   height: auto;
   background-color: #F2EB9C;
 }
+
