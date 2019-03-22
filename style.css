@@ -19,6 +19,9 @@ header{
   background-color: #7edbc5!important;
   border-color: #000000!important;
 } 
+a:hover { 
+  background-color: yellow;
+}
 
 #logo-movie{
   margin-left: 20px;
@@ -71,6 +74,11 @@ button:hover{
   max-height: 460px;
 }
 
+.carousel-inner img:hover{
+  box-shadow: 0 0 15px rgba(0,0,0,.5);
+}
+
+
 .modal-content, .modal-header, .modal-title{
   background-color: rgb(233, 233, 129);
 }
@@ -86,12 +94,14 @@ button:hover{
 
 .card{
   height: auto;
-  margin-top: 20px;
+  margin-top: 40px;
   background-color: #F2EB9C;
+  margin-bottom: 30px;
 }
 
 .card-body{
   height: auto;
   background-color: #F2EB9C;
+
 }
 
