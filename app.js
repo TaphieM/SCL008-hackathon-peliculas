@@ -55,7 +55,7 @@ const actionData= () =>{
 
 const dramaData= () =>{
     for(let i=0; i<dramaMovies.length;i++){
-    fetch('http://www.omdbapi.com/?i=' + dramaMovies[i] + '&apikey=fe2ab715')
+    fetch('https://www.omdbapi.com/?i=' + dramaMovies[i] + '&apikey=fe2ab715')
     .then (data => data.json())
     .then (data => {
     
@@ -82,7 +82,7 @@ const dramaData= () =>{
 
 const comedyData= () =>{
     for(let i=0; i<comedyMovies.length;i++){
-    fetch('http://www.omdbapi.com/?i=' + comedyMovies[i] + '&apikey=fe2ab715')
+    fetch('https://www.omdbapi.com/?i=' + comedyMovies[i] + '&apikey=fe2ab715')
     .then (data => data.json())
     .then (data => {
     
