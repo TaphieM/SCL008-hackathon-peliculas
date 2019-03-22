@@ -81,7 +81,7 @@ De todas formas, ambas estuvieron trabajando muy de cerca y en general tendían 
 
 **Macarena Terán** (aquí presente) fuí encargada de realizar todo el estudio de usuario y la parte más investigativa del proyecto, mientras cooperaba con mis compañeras en cuanto a desarrollo del CSS y Bootstrap.
 
-[PUEDES ACCEDER A NUESTRO SITIO AQUI 👈 ](link)
+[PUEDES ACCEDER A NUESTRO SITIO AQUI 👈 ](https://taphiem.github.io/SCL008-hackathon-peliculas/index.html)
 
 ***
 
@@ -91,11 +91,43 @@ Hemos logrado testear a cierta cantidad de personas en modo presencial y hemos o
  
  👩 [Primer testeo: Lorena, 35 años](https://www.useloom.com/share/8314f92903a348778154eee05c6f09d6)
 
- 👩 [Segundo testeo: Constanza, 28 años]()
+ 👩 [Segundo testeo: Fabiola, 32 años](https://youtu.be/qND8XlsjtrY)
 
- 👩 [Tercer testeo: Carolina, ]()
+ 👩 [Tercer testeo: Carolina, 31 años](https://www.useloom.com/share/51067eecd3fc40eaa4109dc9270fdeed)
 
- 👩 [Cuarto testeo: Katherine, 30 años]()
+  👩 [Cuarto testeo: Constanza, 28 años](https://youtu.be/ROxvGNPYnyc)
+
+ ### Lo bueno...
+
+  + Les agradó en general el orden de la página, también el de las fichas y la información mostrada.
+
+  + El modal con la información sobre la página les parece consciso y acertado.
+
+  + Les agrada la información que aparece sobre las peliculas en el modal, piensan que es lo suficiente y les agrada la opción para poder ver el trailer.
+
+
+### En lo que debemos trabajar...
+
+  + Los colores de la página quizás no sean los más apropiados, se podrían utilizar los mismos pero en una tonalidad más intensa. 
+
+  + Sería más conveniente en las tarjetas añadir el nombre y el año de la película ya que no se visualiza bien en algunos afiches.
+
+  + En el modal corregir el color de la tipografía de algunas categorías. 
+
+### Objetivos a realizar para el siguiente sprint. 
+
++ Dar énfasis a la posibilidad de mostrar tráilers en el mismo modal o redireccionar a otra página. 
+
++ Colocar más tipos de filtro dentro de la página como: filtro por año, por duración de la película, actores, etc. 
+
++ Añadir una barra de búsqueda por palabras concretas. 
+
++ Ver la posibilidad de añadir mas información en la página de inicio como: Ranking de películas más vistas, películas mejor calificadas, etc. 
+
++ Ampliar a futuro el catálogo para todas las peliculas y series de los años 90, por ahora solo tenemos las mas destacadas. 
+
+*Proyecto realizado por [Stephanie Mayen](https://github.com/TaphieM), [Karen Quezada](https://github.com/KarenQuezadaMejia) y [Macarena Terán](https://github.com/ivonneflowers) para [Laboratoria Chile](https://github.com/LaboratoriaChile).*
+
 
  
 
