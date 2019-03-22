@@ -6,7 +6,7 @@ const comedyMovies=['tt0109040','tt0163651','tt0118655','tt0099785','tt0188052',
 
 const actionData= () =>{
     for(let i=0; i<actionMovies.length;i++){
-    fetch('http://www.omdbapi.com/?i=' + actionMovies[i] + '&apikey=fe2ab715')
+    fetch('https://www.omdbapi.com/?i=' + actionMovies[i] + '&apikey=fe2ab715')
     .then (data => data.json())
     .then (data => {
     
