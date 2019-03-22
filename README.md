@@ -81,7 +81,7 @@ De todas formas, ambas estuvieron trabajando muy de cerca y en general tendían 
 
 **Macarena Terán** (aquí presente) fuí encargada de realizar todo el estudio de usuario y la parte más investigativa del proyecto, mientras cooperaba con mis compañeras en cuanto a desarrollo del CSS y Bootstrap.
 
-[PUEDES ACCEDER A NUESTRO SITIO AQUI 👈 ](link)
+[PUEDES ACCEDER A NUESTRO SITIO AQUI 👈 ](https://taphiem.github.io/SCL008-hackathon-peliculas/index)
 
 ***
 
